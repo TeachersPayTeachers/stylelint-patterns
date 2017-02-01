@@ -1,6 +1,6 @@
 {
   "name": "stylelint-patterns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Teachers Pay Teachers stylelint plugins",
   "engines": {
     "node": ">=6.9.3 <7.0.0",
@@ -27,7 +27,8 @@
     "gulp-babel": "^6.1.2",
     "gulp-eslint": "^3.0.1",
     "postcss": "^5.2.11",
-    "stylelint": "7.7.1"
+    "stylelint": "7.7.1",
+    "stylelint-patterns": "^1.0.0"
   },
   "devDependencies": {
     "gulp": "gulpjs/gulp.git#4.0"

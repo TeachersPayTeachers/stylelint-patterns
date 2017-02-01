@@ -4,7 +4,6 @@ import { isObject, isEmpty, find } from 'lodash';
 // Utilities
 import {
   matchesStringOrRegExp,
-  namespace,
   report,
   ruleMessages
 } from '../../utils';

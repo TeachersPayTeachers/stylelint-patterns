@@ -1,6 +1,9 @@
 # Eh
 node_modules
 dist
+index.js
+utils
+rules
 
 # Configuration
 .nvmrc

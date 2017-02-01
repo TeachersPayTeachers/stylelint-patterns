@@ -4,6 +4,7 @@ import del from 'del';
 import path from 'path';
 // Configuration
 import {
+  baseDir,
   distDir,
   srcFiles,
 } from './gulp/config';
@@ -13,12 +14,17 @@ import babel from 'gulp-babel';
 import eslint from 'gulp-eslint';
 
 
-gulp.task('clean', () => del([`${distDir}`]));
+gulp.task('clean', () => del([
+  `${distDir}`,
+  `${baseDir}/index.js`,
+  `${baseDir}/utils`,
+  `${baseDir}/rules`
+]));
 
 gulp.task('babel', () => {
   return gulp.src(srcFiles)
              .pipe(babel())
-             .pipe(gulp.dest(distDir));
+             .pipe(gulp.dest(baseDir));
 });
 
 gulp.task('lint', () => {

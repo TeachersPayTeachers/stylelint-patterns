@@ -1,13 +1,15 @@
 {
   "name": "stylelint-patterns",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Teachers Pay Teachers stylelint plugins",
   "engines": {
     "node": ">=6.9.3 <7.0.0",
     "npm": "3.x.x"
   },
   "files": [
-    "dist"
+    "index.js",
+    "rules",
+    "utils"
   ],
   "scripts": {
     "watch": "gulp watch",

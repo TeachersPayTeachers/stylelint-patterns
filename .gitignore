@@ -1,0 +1,12 @@
+# Eh
+node_modules
+dist
+
+# Configuration
+.nvmrc
+
+# Logs
+*.log
+
+# Damn you, OSX
+.DS_Store

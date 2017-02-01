@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["es2015", { "modules": false, "loose": true }],
+    "stage-0"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        [
+          "transform-es2015-modules-commonjs",
+          "add-module-exports"
+        ]
+      ]
+    }
+  }
+}

@@ -13,7 +13,8 @@
   ],
   "scripts": {
     "watch": "gulp watch",
-    "build": "gulp build"
+    "build": "gulp build",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "babel-eslint": "^7.1.1",

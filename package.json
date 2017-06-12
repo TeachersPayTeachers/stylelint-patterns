@@ -29,8 +29,7 @@
     "gulp-babel": "^6.1.2",
     "gulp-eslint": "^3.0.1",
     "postcss": "^5.2.11",
-    "stylelint": "7.7.1",
-    "stylelint-patterns": "^1.0.0"
+    "stylelint": "7.7.1"
   },
   "devDependencies": {
     "gulp": "gulpjs/gulp.git#4.0"

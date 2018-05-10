@@ -3,8 +3,7 @@
   "version": "1.0.3",
   "description": "Teachers Pay Teachers stylelint plugins",
   "engines": {
-    "node": ">=6.9.3 <9.0.0",
-    "npm": "3.x.x"
+    "node": ">=6.9.3"
   },
   "files": [
     "index.js",

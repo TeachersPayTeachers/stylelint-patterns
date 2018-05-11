@@ -1,6 +1,6 @@
 {
   "name": "stylelint-patterns",
-  "version": "1.0.3",
+  "version": "1.0.3-node-10-support-2",
   "description": "Teachers Pay Teachers stylelint plugins",
   "engines": {
     "node": ">=6.9.3"
